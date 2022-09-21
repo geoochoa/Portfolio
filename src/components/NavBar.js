@@ -66,10 +66,18 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/geoochoa/">
+              <a
+                href="https://www.linkedin.com/in/geoochoa/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="https://github.com/geoochoa">
+              <a
+                href="https://github.com/geoochoa"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={navIcon2} alt="" />
               </a>
             </div>
