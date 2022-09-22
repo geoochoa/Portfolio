@@ -3,6 +3,9 @@ const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 
+var dotenv = require("dotenv");
+dotenv.config();
+
 // server used to send send emails
 const app = express();
 app.use(cors());
@@ -34,7 +37,7 @@ router.post("/contact", (req, res) => {
   const message = req.body.message;
   const mail = {
     from: name,
-    to: EMAIL_USER,
+    to: process.env.EMAIL_USER,
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
