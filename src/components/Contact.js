@@ -47,7 +47,7 @@ export const Contact = () => {
         <Row className="align-items-center">
           <Col size={12} md={6}></Col>
           <Col size={12} md={6}>
-            <h2>Get In Touch</h2>
+            <h2>Contact</h2>
             <form onSubmit={handleSubmit}>
               <Row>
                 <Col size={12} sm={6} className="px-1">

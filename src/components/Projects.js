@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import hostImg1 from "../assets/img/nav-icon2.svg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -15,6 +16,8 @@ export const Projects = () => {
         "A collaborative web app to discover deforestation in the Amazon Jungle through an immersive 3D experience.",
       imgUrl: projImg1,
       repoURL: "https://www.github.com/Deforestation-Detector/web",
+      hostURL: "https://www.deforestationdetector.com",
+      hostIcon: hostImg1,
       tech: "JavaScript Python HTML/CSS",
     },
     {
@@ -23,6 +26,8 @@ export const Projects = () => {
         "A web app to track the activity of movie production, centering around your favorite crew members and actors.",
       imgUrl: projImg2,
       repoURL: "https://www.github.com/geoochoa/ProductionTracker",
+      hostURL: "",
+      hostIcon: "",
       tech: "React HTML/CSS TMDB API",
     },
     {
@@ -31,6 +36,8 @@ export const Projects = () => {
         "A full-stack web app to find, post and catalog geocaches at UCSC!",
       imgUrl: projImg3,
       repoURL: "https://www.github.com/UCSC-Geocaching/slugcache",
+      hostURL: "",
+      hostIcon: "",
       tech: "Vue.js  Py4Web  Mapbox API",
     },
   ];
