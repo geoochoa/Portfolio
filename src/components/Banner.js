@@ -24,12 +24,10 @@ export const Banner = () => {
                     <span className="tagline">Welcome to my Portfolio</span>
                     <h1>{`Hey! I'm Geo`} </h1>
                     <p>
-                      I’m a recent UC Santa Cruz graduate who’s eager to start a
-                      new role in software engineering! Coming from a background
-                      in film production, I’ve always appreciated working with
-                      teams to accomplish a meaningful vision. I love learning
-                      new technologies and taking on the challenges of a new
-                      project.
+                      I’m a Full Stack Software Engineer who has always
+                      appreciated working with teams to accomplish a meaningful
+                      vision. I'm always learning new technologies so take a
+                      look into what I'm doing!
                     </p>
                     <HashLink to="#connect" style={{ textDecoration: "none" }}>
                       <button className="banner-connect">
