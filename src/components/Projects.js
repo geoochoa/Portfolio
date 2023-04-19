@@ -30,7 +30,7 @@ export const Projects = () => {
       repoURL: "https://www.github.com/geoochoa/ProductionTracker",
       hostURL: "",
       hostIcon: "",
-      tech: "React HTML/CSS TMDB-API",
+      tech: "React HTML/CSS TMDB",
     },
     {
       title: "SlugCache",
@@ -40,7 +40,7 @@ export const Projects = () => {
       repoURL: "https://www.github.com/UCSC-Geocaching/slugcache",
       hostURL: "",
       hostIcon: "",
-      tech: "Vue.js Py4Web Mapbox-API",
+      tech: "Vue.js Py4Web Mapbox",
     },
     {
       title: "Smaalworld",
@@ -72,7 +72,7 @@ export const Projects = () => {
                   <p>
                     These are some projects I have been a part of in both a solo
                     and collaborative setting. Many were made under Agile
-                    practices to ensure an MVP.
+                    practices to ensure a MVP.
                   </p>
                 </div>
               )}
