@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Col } from "react-bootstrap";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const ProjectCard = ({
   title,
@@ -9,10 +8,11 @@ export const ProjectCard = ({
   imgUrl,
   repoURL,
   hostURL,
-  hostImg,
+  hostIcon,
   tech,
 }) => {
   const [hostedLink, setHostedLink] = useState(false);
+  console.log(hostIcon);
 
   useEffect(() => {
     if (hostURL !== "") setHostedLink(true);
@@ -34,7 +34,7 @@ export const ProjectCard = ({
               </a>
               {hostedLink && (
                 <a href={hostURL} target="_blank" rel="noreferrer">
-                  <img src={navIcon3} alt="" />
+                  <img src={hostIcon} alt="" />
                 </a>
               )}
             </div>

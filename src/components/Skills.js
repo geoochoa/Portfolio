@@ -44,8 +44,7 @@ export const Skills = () => {
                 <div className="item">
                   <h4>Frameworks</h4>
                   <h6 className="skills-card">
-                    React.js Vue.js Node.js Py4Web Google Firebase Mapbox API
-                    TMDB API
+                    React.js Vue.js Node.js Py4Web Google Firebase Mapbox TMDB
                   </h6>
                 </div>
                 <div className="item">
@@ -57,7 +56,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <h4>Developer Tools</h4>
-                  <h6 className="skills-card">Git VS Code Visual Studio</h6>
+                  <h6 className="skills-card">Git Visual-Studio Jira Zenhub</h6>
                 </div>
               </Carousel>
             </div>
