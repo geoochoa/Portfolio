@@ -20,7 +20,7 @@ export const Projects = () => {
       repoURL: "https://www.github.com/Deforestation-Detector/web",
       hostURL: "https://www.deforestationdetector.com",
       hostIcon: hostImg1,
-      tech: "JavaScript Python HTML/CSS",
+      tech: "Three.js JavaScript Python",
     },
     {
       title: "Movie Production Tracker Web App",
