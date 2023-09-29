@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
 import hostImg1 from "../assets/img/nav-icon3.svg";
 import hostImg2 from "../assets/img/nav-icon4.svg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -13,11 +14,30 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
+      title: "Music Explorer",
+      description: "A full-stack web app to upload and explore music",
+      imgUrl: projImg5,
+      repoURL: "https://github.com/geoochoa/music-explorer",
+      hostURL: "https://music-explorer-three.vercel.app/",
+      hostIcon: hostImg2,
+      tech: "Next.js, React,js, Supabase, Tailwind",
+    },
+    {
+      title: "SlugCache",
+      description:
+        "A full-stack web app to find, post and catalog geocaches at UCSC",
+      imgUrl: projImg3,
+      repoURL: "https://www.github.com/UCSC-Geocaching/slugcache",
+      hostURL: "https://slug-cache-personal.wl.r.appspot.com/login?next=/map",
+      hostIcon: hostImg2,
+      tech: "Vue.js Py4Web Mapbox",
+    },
+    {
       title: "Deforestation Detector",
       description:
-        "A collaborative web app to discover deforestation in the Amazon Jungle through an immersive 3D experience.",
+        "A collaborative web app to discover deforestation in the Amazon Jungle through an immersive 3D experience",
       imgUrl: projImg1,
-      repoURL: "https://www.github.com/Deforestation-Detector/web",
+      repoURL: "https://github.com/Deforestation-Detector/web",
       hostURL: "https://www.deforestationdetector.com",
       hostIcon: hostImg1,
       tech: "Three.js JavaScript Python",
@@ -25,27 +45,17 @@ export const Projects = () => {
     {
       title: "Movie Production Tracker Web App",
       description:
-        "A web app to track the activity of movie production, centering around your favorite crew members and actors.",
+        "A web app to track the activity of movie production, centering around your favorite crew members and actors",
       imgUrl: projImg2,
       repoURL: "https://www.github.com/geoochoa/ProductionTracker",
       hostURL: "",
-      hostIcon: "",
+      hostIcon: hostImg2,
       tech: "React HTML/CSS TMDB",
-    },
-    {
-      title: "SlugCache",
-      description:
-        "A full-stack web app to find, post and catalog geocaches at UCSC!",
-      imgUrl: projImg3,
-      repoURL: "https://www.github.com/UCSC-Geocaching/slugcache",
-      hostURL: "",
-      hostIcon: "",
-      tech: "Vue.js Py4Web Mapbox",
     },
     {
       title: "Smaalworld",
       description:
-        "A new portfolio under development to help create a better introduction!",
+        "A new portfolio under development to help create a better introduction",
       imgUrl: projImg4,
       repoURL: "https://github.com/geoochoa/SmaalWorld",
       hostURL: "https://velvety-maamoul-2829e7.netlify.app/",

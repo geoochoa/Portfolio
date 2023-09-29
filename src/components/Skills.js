@@ -38,25 +38,26 @@ export const Skills = () => {
                 <div className="item">
                   <h4>Languages</h4>
                   <h6 className="skills-card">
-                    C/C++ Python JavaScript SQL(Postgres) HTML/CSS SASS
+                    C/C++ Python JavaScript SQL (Postgres) Java Typescript
                   </h6>
                 </div>
                 <div className="item">
                   <h4>Frameworks</h4>
                   <h6 className="skills-card">
-                    React.js Vue.js Node.js Py4Web Google Firebase Mapbox TMDB
+                    React.js Node.js Next.js Vue.js Three.js Py4Web
                   </h6>
                 </div>
                 <div className="item">
                   <h4>Libraries</h4>
                   <h6 className="skills-card">
-                    Three.js pandas NumPy Matplotlib TensorFlow PyTorch NumPy
-                    Keras
+                    pandas NumPy Matplotlib TensorFlow PyTorch Keras
                   </h6>
                 </div>
                 <div className="item">
                   <h4>Developer Tools</h4>
-                  <h6 className="skills-card">Git Visual-Studio Jira Zenhub</h6>
+                  <h6 className="skills-card">
+                    Git Supabase Firebase Jira Confluence
+                  </h6>
                 </div>
               </Carousel>
             </div>
